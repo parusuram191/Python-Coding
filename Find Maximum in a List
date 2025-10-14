@@ -1,0 +1,7 @@
+ Find Maximum in a List
+def find_max(numbers):
+    return max(numbers)
+
+
+
+
