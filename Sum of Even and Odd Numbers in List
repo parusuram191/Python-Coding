@@ -1,0 +1,8 @@
+
+# Sum of even and odd numbers in a list
+
+numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+even_sum = sum(n for n in numbers if n % 2 == 0)
+odd_sum = sum(n for n in numbers if n % 2 != 0)
+print("Sum of even numbers:", even_sum)
+print("Sum of odd numbers:", odd_sum)
