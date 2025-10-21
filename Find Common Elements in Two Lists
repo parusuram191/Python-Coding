@@ -1,0 +1,8 @@
+
+# Find common elements between two lists
+
+
+list1 = list(map(int, input("Enter first list: ").split()))
+list2 = list(map(int, input("Enter second list: ").split()))
+common = [x for x in list1 if x in list2]
+print("Common elements:", common)
