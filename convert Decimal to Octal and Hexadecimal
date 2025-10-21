@@ -1,0 +1,6 @@
+
+# Convert decimal number to octal and hexadecimal
+
+num = int(input("Enter a decimal number: "))
+print("Octal:", oct(num))
+print("Hexadecimal:", hex(num))
