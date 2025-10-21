@@ -1,0 +1,17 @@
+
+# Program to count digits, letters, and special characters in a string
+
+text = input("Enter text: ")
+letters = digits = specials = 0
+
+for ch in text:
+    if ch.isalpha():
+        letters += 1
+    elif ch.isdigit():
+        digits += 1
+    else:
+        specials += 1
+
+print("Letters:", letters)
+print("Digits:", digits)
+print("Special characters:", specials)
