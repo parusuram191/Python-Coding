@@ -1,0 +1,11 @@
+
+# Program to find sum of natural numbers using recursion
+
+def sum_natural(n):
+    if n == 0:
+        return 0
+    else:
+        return n + sum_natural(n - 1)
+
+num = int(input("Enter a positive number: "))
+print("Sum =", sum_natural(num))
