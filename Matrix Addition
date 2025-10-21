@@ -1,0 +1,15 @@
+
+# Add two matrices
+
+rows = int(input("Enter number of rows: "))
+cols = int(input("Enter number of columns: "))
+
+print("Enter first matrix:")
+matrix1 = [list(map(int, input().split())) for _ in range(rows)]
+print("Enter second matrix:")
+matrix2 = [list(map(int, input().split())) for _ in range(rows)]
+
+result = [[matrix1[i][j] + matrix2[i][j] for j in range(cols)] for i in range(rows)]
+print("Resultant matrix:")
+for row in result:
+    print(row)
